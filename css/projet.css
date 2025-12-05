@@ -1,1 +1,63 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(315deg, #1e90ff, #ff69b4);
+    background-size: 300% 300%;
+    animation: gradient 8s ease infinite;
+}
 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+header {text-align:center;
+    color: rgb(92, 78, 113);
+    height: 25vh;
+    margin: 0;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+.change {color: rgb(0, 0, 0);
+  display: inline-block; /* permet de mettre padding + largeur */
+  padding: 10px 20px;
+  background: linear-gradient(225deg, #1e90ff, #ff69b4);  /* couleur du rectangle */
+  color: rgb(0, 0, 0);          /* couleur du texte */
+  text-decoration: none; /* enlève le soulignement */
+  border-radius: 8px;    /* arrondi (optionnel) */
+}
+.change:hover {
+  background: linear-gradient(45deg, #1863af, #ce4f8f);
+  color: rgb(255, 255, 255);
+}
+/* Style du conteneur pour placer les carrés côte à côte */
+.container {
+  display: flex;                /* Utilisation de flexbox pour aligner les éléments en ligne */
+  gap: 100px;                    /* Espace de 10px entre les carrés */
+  justify-content: center;      /* Centrer les carrés dans le conteneur */
+  margin-top: 20px;             /* Un peu de marge au-dessus du conteneur */
+}
+
+/* Style de base pour les carrés cliquables */
+.clickable-square {
+  display: block;               /* L'élément doit être un bloc pour occuper l'espace */
+  width: 250px;                 /* Largeur du carré */
+  height: 200px;                /* Hauteur du carré */
+  background-color: #4CAF50;    /* Couleur de fond (vert) */
+  text-decoration: none;        /* Enlever le soulignement du lien */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour la transformation et l'ombre */
+}
+.clickable-square:hover {
+  transform: scale(1.2);  /* Zoom sur le carré */
+  border: 5px solid #fff; /* Ajouter une bordure blanche au survol */
+}
+h3 {color: #56fd09;}
+h2 {text-align:center
+}

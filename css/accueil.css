@@ -1,0 +1,76 @@
+header {text-align:center;
+    color: rgb(92, 78, 113);
+    height: 25vh;
+    margin: 0;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+h2 {font-family: cursive;
+    text-align:center
+}
+nav {text-align:center
+}
+body {
+  margin: 0;
+  background:linear-gradient(45deg,  #1e90ff, #ff69b4);
+  background-repeat: no-repeat;
+  background-size: 100% 175px; /* hauteur du fond */
+}
+.change {color: rgb(0, 0, 0);
+  display: inline-block; /* permet de mettre padding + largeur */
+  padding: 10px 20px;
+  background: linear-gradient(225deg, #1e90ff, #ff69b4);  /* couleur du rectangle */
+  color: rgb(0, 0, 0);          /* couleur du texte */
+  text-decoration: none; /* enlève le soulignement */
+  border-radius: 8px;    /* arrondi (optionnel) */
+}
+.change:hover {
+  background: linear-gradient(45deg, #1863af, #ce4f8f);
+  color: rgb(255, 255, 255);
+}
+
+.cate {width: 100%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #1e90ff, #ff69b4);
+  box-sizing: border-box;
+}
+p {font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings
+}
+ul {font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings
+}
+.bas {text-align:center
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.Compétence > ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+.Compétence ul > li {
+  background:linear-gradient(45deg, #ff69b4 , #1e90ff);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+.test {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+}
+.email {text-decoration: none;        /* Enlever le soulignement du lien */
+}
