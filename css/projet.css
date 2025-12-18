@@ -37,27 +37,24 @@ header {text-align:center;
   background: linear-gradient(45deg, #1863af, #ce4f8f);
   color: rgb(255, 255, 255);
 }
-/* Style du conteneur pour placer les carrés côte à côte */
 .container {
   display: flex;                /* Utilisation de flexbox pour aligner les éléments en ligne */
   gap: 100px;                    /* Espace de 10px entre les carrés */
   justify-content: center;      /* Centrer les carrés dans le conteneur */
   margin-top: 20px;             /* Un peu de marge au-dessus du conteneur */
 }
-
-/* Style de base pour les carrés cliquables */
 .clickable-square {
   display: block;               /* L'élément doit être un bloc pour occuper l'espace */
   width: 250px;                 /* Largeur du carré */
   height: 200px;                /* Hauteur du carré */
-  background-color: #4CAF50;    /* Couleur de fond (vert) */
   text-decoration: none;        /* Enlever le soulignement du lien */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour la transformation et l'ombre */
 }
 .clickable-square:hover {
-  transform: scale(1.2);  /* Zoom sur le carré */
-  border: 5px solid #fff; /* Ajouter une bordure blanche au survol */
+  transform: scale(1.2);  
+  border: 5px solid #fff; 
 }
 h3 {color: #56fd09;}
-h2 {text-align:center
+h2 {text-align:center;
+    color: rgb(104, 16, 122);
 }

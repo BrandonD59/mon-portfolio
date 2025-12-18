@@ -44,12 +44,6 @@ p {font-family: "Mozilla Headline", sans-serif;
   font-style: normal;
   font-variation-settings
 }
-ul {font-family: "Mozilla Headline", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings
-}
 .bas {text-align:center
 }
 html {
@@ -67,10 +61,22 @@ html {
   background:linear-gradient(45deg, #ff69b4 , #1e90ff);
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings
 }
 .test {
         display: grid;
         grid-template-columns: 1fr 1fr ;
 }
-.email {text-decoration: none;        /* Enlever le soulignement du lien */
+.email {text-decoration: none;        
+}
+strong {font-size: 30px
+}
+.container {
+  display: flex;                /* Utilisation de flexbox pour aligner les éléments en ligne */
+  gap: 10px;                    /* Espace de 10px entre les carrés */
+  margin-top: 20px;             /* Un peu de marge au-dessus du conteneur */
 }
