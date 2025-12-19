@@ -20,10 +20,10 @@ body {
 .change {color: rgb(0, 0, 0);
   display: inline-block; /* permet de mettre padding + largeur */
   padding: 10px 20px;
-  background: linear-gradient(225deg, #1e90ff, #ff69b4);  /* couleur du rectangle */
-  color: rgb(0, 0, 0);          /* couleur du texte */
-  text-decoration: none; /* enlève le soulignement */
-  border-radius: 8px;    /* arrondi (optionnel) */
+  background: linear-gradient(225deg, #1e90ff, #ff69b4);  
+  color: rgb(0, 0, 0);          
+  text-decoration: none; 
+  border-radius: 8px;    /* arrondi  */
 }
 .change:hover {
   background: linear-gradient(45deg, #1863af, #ce4f8f);
@@ -40,10 +40,10 @@ body {
 }
 p {font-family: "Mozilla Headline", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
-  font-variation-settings
 }
+
 .bas {text-align:center
 }
 html {
@@ -63,9 +63,8 @@ html {
   border-radius: 4px;
   font-family: "Mozilla Headline", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
-  font-variation-settings
 }
 .test {
         display: grid;

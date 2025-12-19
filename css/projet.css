@@ -28,10 +28,10 @@ header {text-align:center;
 .change {color: rgb(0, 0, 0);
   display: inline-block; /* permet de mettre padding + largeur */
   padding: 10px 20px;
-  background: linear-gradient(225deg, #1e90ff, #ff69b4);  /* couleur du rectangle */
-  color: rgb(0, 0, 0);          /* couleur du texte */
-  text-decoration: none; /* enlève le soulignement */
-  border-radius: 8px;    /* arrondi (optionnel) */
+  background: linear-gradient(225deg, #1e90ff, #ff69b4); 
+  color: rgb(0, 0, 0);         
+  text-decoration: none; 
+  border-radius: 8px;    /* arrondi  */
 }
 .change:hover {
   background: linear-gradient(45deg, #1863af, #ce4f8f);
@@ -39,16 +39,16 @@ header {text-align:center;
 }
 .container {
   display: flex;                /* Utilisation de flexbox pour aligner les éléments en ligne */
-  gap: 100px;                    /* Espace de 10px entre les carrés */
-  justify-content: center;      /* Centrer les carrés dans le conteneur */
-  margin-top: 20px;             /* Un peu de marge au-dessus du conteneur */
+  gap: 100px;                    /* Espace de 100px entre les carrés */
+  justify-content: center;      
+  margin-top: 20px;             
 }
 .clickable-square {
   display: block;               /* L'élément doit être un bloc pour occuper l'espace */
-  width: 250px;                 /* Largeur du carré */
-  height: 200px;                /* Hauteur du carré */
-  text-decoration: none;        /* Enlever le soulignement du lien */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour la transformation et l'ombre */
+  width: 250px;                
+  height: 200px;               
+  text-decoration: none;        
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 .clickable-square:hover {
   transform: scale(1.2);  
